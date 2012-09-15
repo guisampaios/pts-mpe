@@ -588,12 +588,12 @@ function tree_getCheckBox(id)
 
 function open_bug_add_window(exec_id,tproject_id,testcase_id)
 {
-	window.open("http://localhost/Projeto%20Mestrado/mantisbt-1.2.11/bug_report_page_testlink.php?exec_id="+exec_id+"&tproject_id="+tproject_id+"&testcase_id="+testcase_id,"bug_add",
+	window.open("http://localhost/bug_report_page_testlink.php?exec_id="+exec_id+"&tproject_id="+tproject_id+"&testcase_id="+testcase_id,"bug_add",
 	            "width=830,height=650,resizable=yes,dependent=yes");
 }
 function create_project_mantisBT(tproject_id)
 {
-    window.open("http://localhost/Projeto%20Mestrado/mantisbt-1.2.11/integracao/createProjectMantis.php?tproject_id="+tproject_id,"create_project_mantisBT","width=870,height=650,resizable=yes,dependent=yes");
+    window.open("http://localhost/mantisbt/integracao/createProjectMantis.php?tproject_id="+tproject_id,"create_project_mantisBT","width=870,height=650,resizable=yes,dependent=yes");
 }
 function bug_dialog()
 {
